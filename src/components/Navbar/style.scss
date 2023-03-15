@@ -1,0 +1,42 @@
+$xDarkGreen: #10181A;
+$green: #212F27;
+$darkGreen: #0B1E1C;
+$grey: #81807B;
+$lightGreen: #C3C4B6;
+$white: #fff;
+.nav-container{
+	width: 100%;
+	height: 3.5rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.nav-logo{
+		margin-left: 5rem;
+		img{
+			width:140px;
+		}
+	}
+	.nav-links{
+		width: 70%;
+		height: 100%;
+		margin-right: 5rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h3{
+			font-family: 'Alumni Sans', sans-serif;
+			font-size: 22px;
+			color: $grey;
+			font-weight: 300;
+		}
+	}
+}
+.nav-line-container{
+	width: 100%;
+	height: 1px;
+	background-color: $lightGreen;
+	position: absolute;
+	bottom: 0;
+	opacity: .3;
+}

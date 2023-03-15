@@ -1,0 +1,56 @@
+$xDarkGreen: #10181A;
+$green: #212F27;
+$darkGreen: #0B1E1C;
+$grey: #81807B;
+$lightGreen: #C3C4B6;
+$white: #fff;
+.lc-container{
+	width: '100%';
+	height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.lc-inner-container{
+	width: 20%;
+	height: 80%;
+	display: flex;
+}
+.lc-l-container,.lc-c-container{
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:white;
+	img{
+		width: 20px;
+		height: 20px;
+		object-fit: contain;
+	}
+	select{
+		z-index: 10;
+		width: 80%;
+		height: 30px;
+		border: none;
+		outline: none;
+		background-color: transparent;
+		font-size: 14px;
+		option{
+		// color: $white;
+		color: white;
+		&:first-child{
+			color: red;
+		}
+		}
+	}
+}
+.line-container{
+	width: 100%;
+	height: 1px;
+	background-color: $lightGreen;
+	position: absolute;
+	top: 50%;
+	opacity: .3;
+}
