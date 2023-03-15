@@ -1,0 +1,39 @@
+$xDarkGreen: #10181A;
+$green: #212F27;
+$darkGreen: #0B1E1C;
+$grey: #81807B;
+$lightGreen: #C3C4B6;
+$black: #020606;
+
+.footer-container{
+	width: 100%;
+	height: 30vh;
+	background-color: $xDarkGreen;
+	display: flex;
+	align-items: center;
+	padding-top: 1rem;
+	flex-direction: column;
+	h3{
+		font-family: 'Alumni Sans', sans-serif;
+		color: $lightGreen;
+		font-size: 32px;
+		font-weight: 400;
+		margin: 1rem 0;
+	}
+	.socials{
+		width: 100%;
+		height: 20%;
+		display: flex;
+		justify-content: center;
+		img{
+			width: 30px;
+			margin: 0 2.5rem;
+		}
+	}
+	p{
+		font-family: 'Alumni Sans', sans-serif;
+		color: $lightGreen;
+		font-size: 20px;
+		margin-top: 3.2rem;
+	}
+}

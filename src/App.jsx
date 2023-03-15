@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar";
 import heartIcon from "./assets/icons/heart.svg";
 import arrowRight from "./assets/icons/arrow-right.svg";
 import swiperIcon from "./assets/icons/swiper.png";
-import image from "./assets/images/background.jpg";
 //slider imgs
 import slider1 from "./assets/images/slider/1.jpg";
 import slider2 from "./assets/images/slider/2.jpg";
@@ -13,6 +12,9 @@ import slider3 from "./assets/images/slider/3.jpg";
 import menu1 from "./assets/images/menu/1.jpg";
 import menu2 from "./assets/images/menu/2.jpg";
 import menu3 from "./assets/images/menu/3.jpg";
+//page switch
+import pageSwitchIcons from "./assets/icons/next-btn.svg";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const menuItems = [
@@ -69,7 +71,12 @@ function App() {
           <h2>EXPLORE NEW CARS</h2>
           <div className="title-line" />
         </div>
-        <div className="page-switch">page switch</div>
+        <div className="page-switch">
+          <div className="page-switch-inner">
+            <img src={pageSwitchIcons} alt="" />
+            <img className="page-switch-right" src={pageSwitchIcons} alt="" />
+          </div>
+        </div>
         <div className="explore-menu-container">
           <div className="explore-menu-inner">
             {menuItems.map((item) => (
@@ -94,6 +101,31 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="home-sponsors-container">
+        <div className="sponsors-logos-container">
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+          <img src={heartIcon} alt="" />
+        </div>
+        <div className="sponsors-text-container">
+          <h2>
+            THE COMPLETE CATALOGUE
+            <br />
+            OF AUTOMOBILES
+          </h2>
+        </div>
+      </div>
+      <div className="home-bottom-container">
+        <div className="home-search-container">
+          <input type="text" name="" id="" />
+          <div className="search"></div>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
