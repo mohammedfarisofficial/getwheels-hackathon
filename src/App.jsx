@@ -15,6 +15,14 @@ import menu3 from "./assets/images/menu/3.jpg";
 //page switch
 import pageSwitchIcons from "./assets/icons/next-btn.svg";
 import Footer from "./components/Footer/Footer";
+// car company logos
+import carLogo1 from "./assets/logo/companies/1.png";
+import carLogo2 from "./assets/logo/companies/2.png";
+import carLogo3 from "./assets/logo/companies/3.png";
+import carLogo4 from "./assets/logo/companies/4.png";
+import carLogo5 from "./assets/logo/companies/5.png";
+import carLogo6 from "./assets/logo/companies/6.png";
+import carLogo7 from "./assets/logo/companies/7.png";
 
 function App() {
   const menuItems = [
@@ -103,13 +111,13 @@ function App() {
       </div>
       <div className="home-sponsors-container">
         <div className="sponsors-logos-container">
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
-          <img src={heartIcon} alt="" />
+          <img src={carLogo1} alt="" />
+          <img src={carLogo2} alt="" />
+          <img src={carLogo3} alt="" />
+          <img src={carLogo4} alt="" />
+          <img src={carLogo5} alt="" />
+          <img src={carLogo6} alt="" />
+          <img src={carLogo7} alt="" />
         </div>
         <div className="sponsors-text-container">
           <h2>
