@@ -273,7 +273,7 @@ $black: #020606;
   }
 }
 .home-bottom-container{
-  height: 100vh;
+  height: 60vh;
   background-color: $darkGreen;
   .home-search-container{
     width: 100%;
@@ -298,5 +298,46 @@ $black: #020606;
       margin-left: .5rem;
       border-radius: .5rem;
     }
+  }
+}
+.bottom-title{
+    width: 100%;
+    padding-left:  5rem;
+    top: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    h2{
+      font-size: 4rem;
+      color: $lightGreen;
+      letter-spacing: -1px;
+    }
+    .title-line{
+      width: 40%;
+      height: 4px;
+      background-color: $lightGreen;
+    }
+  }
+.bottom-title-right{
+  padding-left: 0;
+  padding-right: 5rem;
+}
+.helpline{
+  width: 100%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h3{
+    color: $lightGreen;
+    font-size: 30px;
+  }
+  p{
+    color: $lightGreen;
+    font-size: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: 300;
   }
 }

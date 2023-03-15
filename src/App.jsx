@@ -122,7 +122,23 @@ function App() {
       <div className="home-bottom-container">
         <div className="home-search-container">
           <input type="text" name="" id="" />
-          <div className="search"></div>
+          <div className="search" />
+        </div>
+        <div className="helpline">
+          <h3>Not sure, Which car to buy?</h3>
+          <p>Let us help you find the dream car</p>
+        </div>
+        <div className="bottom-title">
+          <h2>NEWS AND REVIEW</h2>
+          <div className="title-line" />
+        </div>
+        <div className="bottom-title bottom-title-right">
+          <div className="title-line" />
+          <h2>USED CARS</h2>
+        </div>
+        <div className="bottom-title">
+          <h2>COMPARE CARS</h2>
+          <div className="title-line" />
         </div>
       </div>
       <Footer />
