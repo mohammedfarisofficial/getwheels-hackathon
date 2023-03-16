@@ -13,7 +13,7 @@ $white: #fff;
 	position: relative;
 }
 .lc-inner-container{
-	width: 20%;
+	width: 230px;
 	height: 80%;
 	display: flex;
 }
@@ -23,7 +23,6 @@ $white: #fff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color:white;
 	img{
 		width: 20px;
 		height: 20px;
@@ -37,8 +36,8 @@ $white: #fff;
 		outline: none;
 		background-color: transparent;
 		font-size: 14px;
+		color: $lightGreen;
 		option{
-		// color: $white;
 		color: white;
 		&:first-child{
 			color: red;

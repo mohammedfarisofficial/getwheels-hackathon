@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import heartIcon from "./assets/icons/heart.svg";
 import arrowRight from "./assets/icons/arrow-right.svg";
 import swiperIcon from "./assets/icons/swiper.png";
+import searchIcon from "./assets/icons/search.svg";
 //slider imgs
 import slider1 from "./assets/images/slider/1.jpg";
 import slider2 from "./assets/images/slider/2.jpg";
@@ -27,23 +28,23 @@ import carLogo7 from "./assets/logo/companies/7.png";
 function App() {
   const menuItems = [
     {
-      name: "Car 1",
+      name: "Lamborgini Aventador",
       img: menu1,
     },
     {
-      name: "Car 1",
+      name: "Ford Mustang",
       img: menu2,
     },
     {
-      name: "Car 1",
+      name: "Mini Cooper",
       img: menu3,
     },
     {
-      name: "Car 1",
+      name: "Lamborgini Aventador",
       img: menu1,
     },
     {
-      name: "Car 1",
+      name: "Ford Mustang",
       img: menu2,
     },
   ];
@@ -130,7 +131,9 @@ function App() {
       <div className="home-bottom-container">
         <div className="home-search-container">
           <input type="text" name="" id="" />
-          <div className="search" />
+          <div className="search">
+            <img src={searchIcon} alt="" />
+          </div>
         </div>
         <div className="helpline">
           <h3>Not sure, Which car to buy?</h3>

@@ -13,6 +13,9 @@ $white: #fff;
 	justify-content: space-between;
 	.nav-logo{
 		margin-left: 5rem;
+		@media (max-width: 800px) {
+			margin-left: 2rem;
+		}
 		img{
 			width:140px;
 		}
@@ -29,6 +32,14 @@ $white: #fff;
 			font-size: 22px;
 			color: $grey;
 			font-weight: 300;
+			transition: color .1s ease-in;
+			cursor: pointer;
+			@media (max-width: 800px) {
+				display: none;
+			}
+			&:hover{
+				color: $lightGreen;
+			}
 		}
 	}
 }
